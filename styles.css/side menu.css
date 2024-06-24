@@ -1,0 +1,40 @@
+.side-menu {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0a0a0a;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .side-menu-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .side-menu-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .side-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+  }
+  
+  .side-menu a:hover {
+    color: #000;
+  }
+  
+  .main-content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  
